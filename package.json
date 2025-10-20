@@ -1,0 +1,33 @@
+{
+  "name": "@ellyco/telemetry",
+  "version": "1.0.0",
+  "description": "Small library containing utility for projects using open telemetry",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "git": {
+    "url": "https://github.com/ellyco/telemetry.git",
+    "branch": "main"
+  },
+  "author": "Elina Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.8.1",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "peerDependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/exporter-logs-otlp-http": "^0.204.0",
+    "@opentelemetry/instrumentation-http": "^0.204.0",
+    "@opentelemetry/resources": "^2.1.0",
+    "@opentelemetry/sdk-logs": "^0.204.0",
+    "@opentelemetry/sdk-node": "^0.204.0",
+    "@opentelemetry/semantic-conventions": "^1.37.0"
+  },
+  "optionalDependencies": {
+    "@nestjs/common": "^11.0.1"
+  }
+}
