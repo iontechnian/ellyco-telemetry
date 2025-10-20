@@ -1,12 +1,11 @@
 {
   "name": "@ellyco/telemetry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small library containing utility for projects using open telemetry",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "vitest",
-    "postinstall": "npm run build"
+    "test": "vitest"
   },
   "git": {
     "url": "https://github.com/ellyco/telemetry.git",
